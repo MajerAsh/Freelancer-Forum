@@ -49,7 +49,7 @@ function oneFreelancer(freelancer) {
   const container = document.createElement("div");
   container.className = "freelancer";
 
-  const name = document.createElement("h3");
+  const name = document.createElement("h2");
   name.textContent = freelancer.name;
 
   const occupation = document.createElement("p");
@@ -86,7 +86,7 @@ function averageRateComponent(freelancers) {
   const container = document.createElement("div");
   container.className = "average-rate";
 
-  const heading = document.createElement("h2");
+  const heading = document.createElement("h1");
   heading.textContent = `Average Freelancer Rate: $${Math.round(avgRate)}`;
 
   container.appendChild(heading);
